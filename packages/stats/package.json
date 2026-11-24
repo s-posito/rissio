@@ -1,0 +1,14 @@
+{
+  "name": "@rissio/stats",
+  "version": "0.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "@rissio/format": "workspace:*"
+  }
+}

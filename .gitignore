@@ -1,0 +1,48 @@
+# Data: never committed (videos, annotations, datasets, weights)
+data/
+
+# Videos
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.mts
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.onnx.data
+*.safetensors
+*.mlmodel
+*.mlpackage/
+
+# Node
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Rust / Tauri
+target/
+
+# Local database, secrets, OS, editors
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+.claude/settings.local.json
